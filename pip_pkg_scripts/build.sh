@@ -47,7 +47,7 @@ ${PIP} install tensorflow-gpu=="${TF_VERSION}" --user
 python3 -m pip install --upgrade tensorflow-gpu=="${TF_VERSION}" --user
 
 rm -rf waymo-od || true
-git clone https://github.com/waymo-research/waymo-open-dataset.git waymo-od
+git clone https://github.com/atyshka/waymo-open-dataset.git waymo-od
 cd waymo-od
 
 git checkout remotes/origin/${GITHUB_BRANCH}
